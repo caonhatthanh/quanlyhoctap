@@ -11,33 +11,46 @@ Dự án "Quản Lý Học Tập" là một ứng dụng quản lý thông tin h
 
 ## Các Tính Năng Chính
 
+- **Login**: Nơi đăng nhập tài khoản để tiến vào Dashboard sau khi được xác thực.
+  ![Login Image](https://i.imgur.com/RygAdgf.png)
 - **Dashboard**: Hiển thị thông tin tổng quan về học tập và kết quả học tập.
+  ![Dashboard Image](https://i.imgur.com/oSSnCaQ.png)
 - **Người Dùng**: Quản lý thông tin sinh viên và người dùng.
+  ![User Management Image](https://i.imgur.com/EIcfuqP.png)
 - **Bài Tập**: Quản lý bài tập.
+  ![Assignments Image](https://i.imgur.com/jDjTuCy.png)
 - **Lịch Sử**: Hiển thị các hoạt động học tập, bài tập đã hoàn thành.
 
 ## Cài Đặt
 
-1. Di chuyển vào mục dự án:
-    ```bash
-    cd quanlyhoctap
-    ```
+1. Clone dự án về máy với lệnh cmd:
 
-2. Cài đặt các thư viện:
-    ```bash
-    npm install
-    ```
+   ```bash
+   git clone https://github.com/caonhatthanh/quanlyhoctap.git
+   ```
 
-3. Khởi chạy web dự án:
-    ```bash
-    npm run dev
-    ```
+2. Di chuyển vào thư mục dự án:
+
+   ```bash
+   cd quanlyhoctap
+   ```
+
+3. Cài đặt các thư viện:
+
+   ```bash
+   npm install
+   ```
+
+4. Khởi chạy web dự án:
+   ```bash
+   npm run dev
+   ```
 
 Dự án sẽ chạy trên `http://localhost:5173` trong trình duyệt.
 
 ## Hướng Dẫn Sử Dụng
 
-1. Đăng nhập vào hệ thống bằng tài khoản được khai báo trong "LLogin.tsx" trong mảng "ACCOUNT".
+1. Đăng nhập vào hệ thống bằng tài khoản được khai báo trong `Login.tsx` trong mảng `ACCOUNT`.
 2. Truy cập các trang người dùng, bài tập để điều chỉnh thông tin.
 3. Theo dõi trạng thái "đã hoàn thành" hoặc "chưa hoàn thành" trong trang Lịch Sử.
 
