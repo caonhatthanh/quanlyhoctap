@@ -1,0 +1,246 @@
+.formlogin {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    border: solid lightgray 2px;
+    width: 1142px;
+    border-radius: 5px;
+    box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.info1 {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    background-image: linear-gradient(to bottom, #56B3FA, #FF69B4);
+    color: #fff;
+    padding: 35px;
+    font-family: 'Lily', cursive;
+}
+
+.info2 {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    padding: 35px;
+    font-family: 'Lily', cursive;
+    background-color: white;
+}
+
+.title {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    text-align: center;
+}
+
+.author {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    text-decoration: underline;
+    font-size: small;
+    color: white;
+}
+
+.author:hover {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    color: #C51098;
+}
+
+.formdangky {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    padding-left: 50px;
+}
+
+.titledangky {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    text-align: left;
+}
+
+.descriptiondangky {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    color: gray;
+}
+
+#lastname {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.dausao {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    color: red;
+}
+
+#email {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    margin-top: 10px;
+    width: 90%;
+}
+
+#firstname {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    margin-top: 10px;
+    width: 90%;
+}
+
+#pass {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    margin-top: 10px;
+    width: 90%;
+}
+
+label {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    margin-top: 10px;
+}
+
+
+.styled-input {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    width: 300px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.styled-input:hover {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    border-color: #aaa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.styled-input:focus {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    border-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.25);
+}
+
+.styled-input::placeholder {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    color: #aaa;
+    font-style: italic;
+}
+
+.simple-checkbox {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.simple-checkbox:hover {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    border-color: #aaa;
+}
+
+.simple-checkbox:checked {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    background-color: #38eb7d;
+    border-color: #47e099;
+    position: relative;
+}
+
+.simple-checkbox:checked::after {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    width: 6px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.dieukhoan {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    color: rgb(81, 163, 211);
+    text-decoration: none;
+}
+
+.signup {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    padding: 10px 20px;
+    margin-top: 30px;
+    width: 90%;
+    background-color: #56b3fa;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.signup:hover {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    background-image: linear-gradient(to bottom, #56B3FA, #FF69B4);
+    color: white;
+}
+
+#tencuathanh {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    font-family: 'Great Vibes', cursive;
+    font-style: oblique;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+.dacotk {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 63px;
+}
+
+.dangnhap {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    color: rgb(81, 163, 211);
+    text-decoration: none;
+}
+
+.google {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    border-radius: 15px;
+    background-color: rgb(81, 163, 211);
+}
+
+.google:hover {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    background-image: linear-gradient(to bottom, #56B3FA, #FF69B4);
+}
+
+.x {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: rgb(81, 163, 211);
+}
+
+.x:hover {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    background-image: linear-gradient(to bottom, #56B3FA, #FF69B4);
+}
+
+.facebook {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: rgb(81, 163, 211);
+}
+
+.facebook:hover {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    background-image: linear-gradient(to bottom, #56B3FA, #FF69B4);
+}
+
+.phuongthuclogin {
+    cursor: url("../../page/assets/cursor/cat.cur"), auto;
+    color: gray;
+}
