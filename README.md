@@ -39,7 +39,18 @@ Dự án "Quản Lý Học Tập" là một ứng dụng quản lý thông tin h
 
    ```bash
    npm install
+   ```
+   ```bash
    npm install react-router-dom
+   ```
+   ```bash
+   npm install boxicons
+   ```
+   ```bash
+   npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
+   ```
+   ```bash
+   npm install antd --save
    ```
 
 4. Khởi chạy web dự án:
