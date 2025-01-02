@@ -39,6 +39,7 @@ Dự án "Quản Lý Học Tập" là một ứng dụng quản lý thông tin h
 
    ```bash
    npm install
+   npm install react-router-dom
    ```
 
 4. Khởi chạy web dự án:
