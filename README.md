@@ -50,7 +50,7 @@ Dự án sẽ chạy trên `http://localhost:5173` trong trình duyệt.
 
 ## Hướng Dẫn Sử Dụng
 
-1. Đăng nhập vào hệ thống bằng tài khoản được khai báo trong `Login.tsx` trong mảng `ACCOUNT`.
+1. Đăng nhập vào hệ thống bằng tài khoản được khai báo trong `LLogin.tsx` trong mảng `ACCOUNT`.
 2. Truy cập các trang người dùng, bài tập để điều chỉnh thông tin.
 3. Theo dõi trạng thái "đã hoàn thành" hoặc "chưa hoàn thành" trong trang Lịch Sử.
 
